@@ -1,0 +1,71 @@
+/* index.css or App.css */
+.custom-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #ff5c5c; /* Tailwind blue-500 */
+  border-radius: 4px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Tailwind gray-200 */
+}
+.custom-scroll {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #ffb162 #e5e7eb; /* Firefox */
+}
+
+.bg-blue-pink {
+  background: #ffcfe4;
+  background: linear-gradient(250deg, rgba(255, 207, 228, 1) 0%, rgba(181, 214, 255, 1) 100%);
+}
+
+.hot-deals {
+  background: #FBF138;
+  background: linear-gradient(120deg, rgba(251, 241, 56, 1) 26%, rgba(250, 179, 45, 1) 41%, rgba(250, 179, 45, 1) 60%, rgba(249, 130, 37, 1) 75%);
+}
+
+.profile-buttons {
+  background: #000000;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 56, 69, 1) 100%);
+}
+
+.card-bg {
+  background: #fcd8cd;
+  background: linear-gradient(0deg, #fcd8cdcc 0%, rgba(255, 255, 255, 1) 65%);
+}
+
+.card-bg2 {
+  background-color: white;
+}
+
+.react-tel-input .form-control {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  border: 1px solid #94a3b8;
+  border-radius: 0.75rem;
+  width: 100%;
+}
+
+
+.react-tel-input .form-control {
+  background-color: #ffffff; /* bg-white */
+  border-right: 1px solid #94a3b8; /* border-r and border-slate-400 */
+  border-top-left-radius: 0.75rem; /* rounded-l-xl (12px) */
+  border-bottom-left-radius: 0.75rem; /* rounded-l-xl (12px) */
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background-color: white;
+}
+
+.rc-anchor-light {
+  background-color: transparent;
+}
